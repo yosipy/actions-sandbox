@@ -11,3 +11,4 @@ Run echo "refs/heads/main"
   shell: /usr/bin/bash -e {0}
 refs/heads/main
 ```
+となる
