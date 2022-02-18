@@ -4,7 +4,7 @@
       - name: Run a one-line script
         run: echo "${{ github.ref }}"
 ```
-
+のとき
 ```
 Run echo "refs/heads/main"
   echo "refs/heads/main"
