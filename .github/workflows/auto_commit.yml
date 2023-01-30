@@ -1,4 +1,4 @@
-name: Workflow_dispatch
+name: auto_commit
 
 on:
   workflow_dispatch:
