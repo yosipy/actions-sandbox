@@ -1,0 +1,21 @@
+name: Workflow_dispatch
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run a multi-line script
+        run: |
+          touch test.txt
+      - uses: EndBug/add-and-commit@v9
+        with:
+          add: 'test.txt'
+          message: 'test'
+          author_name: 'bot'
+          author_email: 'test@example.com'
